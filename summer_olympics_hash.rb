@@ -33,11 +33,7 @@ def iterate_through_keys
   new_city = "Atlanta"
   new_year = 1996
   summer_olympics[new_city]=new_year
-  puts summer_olympics
-  summer_olympics.each do |key, value|
-   puts "The #{key} summer olympics took place in #{value}."
-  end  
-   summer_olympics.keys.upcase
+  puts summer_olympics.keys.upcase
 end
 
 iterate_through_keys
