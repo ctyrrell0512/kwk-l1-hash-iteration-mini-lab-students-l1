@@ -37,9 +37,3 @@ def iterate_through_keys
 end
 
 iterate_through_keys
-
-
-
-
-
-
