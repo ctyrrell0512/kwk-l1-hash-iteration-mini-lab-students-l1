@@ -22,7 +22,7 @@ def iterate_through_hash
   summer_olympics[new_city]=new_year
   puts summer_olympics
  summer_olympics.each do |olympics|
-   puts "The #{olympics.keys} summer olympics took place in #{olympics.value}."
+   puts "The #{olympics} summer olympics took place in #{olympics}."
   end
 end
 
