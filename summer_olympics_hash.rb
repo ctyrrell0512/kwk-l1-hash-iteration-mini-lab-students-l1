@@ -26,7 +26,7 @@ def iterate_through_hash
   end
 end
 
-iterate_through_hash
+#iterate_through_hash
 
 def iterate_through_keys
   summer_olympics = {"Sydney"=> 2000, "Athens"=>2004, "Beijing"=>2008, "London" =>2012}
@@ -40,4 +40,4 @@ def iterate_through_keys
    summer_olympics.keys.upcase
 end
 
-#iterate_through_keys
+iterate_through_keys
