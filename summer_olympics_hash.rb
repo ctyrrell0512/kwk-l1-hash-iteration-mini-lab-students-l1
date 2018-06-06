@@ -33,6 +33,7 @@ def iterate_through_keys
   new_city = "Atlanta"
   new_year = 1996
   summer_olympics[new_city]=new_year
+  puts summer_olympics
   puts summer_olympics.keys.upcase
 end
 
