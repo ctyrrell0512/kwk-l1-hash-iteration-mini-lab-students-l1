@@ -13,7 +13,7 @@ def add_a_key_value_pair
   summer_olympics[new_city]=new_year
 end
 
-#add_a_key_value_pair
+add_a_key_value_pair
 
 def iterate_through_hash
  summer_olympics = { :Sydney => 2000, :Athens =>2004, :Beijing =>2008, :London =>2012}
@@ -24,7 +24,7 @@ def iterate_through_hash
    puts "The #{olympics.key} summer olympics took place in #{olympics.value}."
 end
 
-#iterate_through_hash
+iterate_through_hash
 
 def iterate_through_keys
   summer_olympics = { :Sydney => 2000, :Athens =>2004, :Beijing =>2008, :London =>2012}
@@ -36,7 +36,7 @@ def iterate_through_keys
    summer_olympics.upcase
 end
 
-#iterate_through_keys
+iterate_through_keys
 
 
 
